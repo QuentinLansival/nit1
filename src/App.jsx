@@ -4,10 +4,30 @@ const data = [
   {
     title: "1. Introduction & Cadre normatif",
     children: [
-      { title: "1.1 Pourquoi une norme ?", content: "Le béton est fabriqué sur chantier. La norme garantit l’uniformité d’exécution, la sécurité et la durabilité. La NIT 285 synthétise les exigences issues de l’Eurocode 2, la norme NBN EN 13670 et B15-400." },
-      { title: "1.2 Pyramide normative", content: "L’Eurocode 2 traite du dimensionnement, la norme NBN EN 13670 de l’exécution, la B15-400 des ajouts belges, et la NIT 285 est leur traduction chantier.\n\nIllustration :\n\n👇\n\n<img src='pyramide_normative.png' alt='Pyramide normative' style='max-width:100%' />" },
-      { title: "1.3 Structure NIT 285", content: "Organisation par étapes chantier : spécifications → coffrage → armatures → bétonnage → cure → contrôle. Chaque chapitre correspond à une phase." },
-      { title: "1.4 BENOR & CE", content: "BENOR = contrôle belge renforcé ; CE = minimum européen.\nLe béton BENOR est recommandé sur tout ouvrage structurel durable (parements, murs enterrés, etc.)." }
+      {
+        title: "1.1 Objet de la note",
+        content: "La NIT 285 a pour but de fournir des recommandations sur l’exécution des structures en béton conformément à la norme NBN EN 13670, en tenant compte des exigences belges (NBN B 15-400) et des spécificités de l’Eurocode 2."
+      },
+      {
+        title: "1.2 Domaine d’application",
+        content: "Elle concerne les ouvrages réalisés en béton armé ou non armé, coulés sur chantier ou à partir d’éléments préfabriqués. Les bétons précontraints ou projetés sont également inclus."
+      },
+      {
+        title: "1.3 Lien avec les normes européennes",
+        content: "La figure ci-dessous illustre les interactions entre normes :\n\n<img src='fig1_1_pyramide.png' alt='Pyramide des normes' style='max-width:100%' />"
+      },
+      {
+        title: "1.4 Différences entre NIT et normes",
+        content: "La NIT 285 ne remplace pas les normes. Elle illustre et interprète les exigences des normes EN pour une application sur chantier."
+      },
+      {
+        title: "1.5 Responsabilités",
+        content: "La mise en œuvre correcte est de la responsabilité de l’entrepreneur, sous le contrôle de l’auteur de projet. Le coordinateur sécurité veille à la sécurité globale."
+      },
+      {
+        title: "1.6 Qualité CE vs BENOR",
+        content: "Le marquage CE indique la conformité minimale. Le label BENOR impose des contrôles supplémentaires adaptés aux exigences belges et est fortement recommandé."
+      }
     ]
   }
 ];
